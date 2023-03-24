@@ -1,0 +1,16 @@
+version: '3'
+services:
+  pyyne-auth-api:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    networks: 
+      - pyyne-users-net
+
+networks:
+  pyyne-users-net:
