@@ -48,7 +48,7 @@ $ npm run start:prod
 ## Running in docker
 
 ```bash
-# unit tests
+# docker
 $ docker compose up
 ```
 
