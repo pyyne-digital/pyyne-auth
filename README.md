@@ -24,7 +24,7 @@
 
 ## Description
 
-Microservice with Google sign in. Signs user in with google, then issues its own jwt token and sends it in response. 
+Microservice with Google Sign In. Signs user in with google, then issues its own jwt token and sends it in response. 
 
 ## Installation
 
