@@ -13,7 +13,7 @@ export class AppService {
     }
 
     return this.jwtService.sign({
-      sub: req.user.googleId,
+      sub: req.user.id,
       email: req.user.email,
       name: req.user.name  
     },
